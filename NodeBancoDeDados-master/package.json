@@ -1,17 +1,20 @@
 {
-  "name": "nodebancodados",
-  "version": "1.0.0",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+  "nome": "api-bd",
+  "versão": "1.0.0",
+  "descrição": "",
+  "principal": "index.js",
+  "roteiros": {
+    "test": "echo \"Erro: nenhum teste especificado\" && exit 1"
   },
-  "author": "",
-  "license": "ISC",
-  "description": "",
-  "dependencies": {
+  "palavras-chave": [],
+  "autor": "",
+  "licença": "ISC",
+  "dependências": {
     "-": "^0.0.1",
-    "express": "^4.19.2",
+    "cors": "^2.8.5",
+    "expresso": "^4.19.2",
     "mysql2": "^3.11.0",
-    "save": "^2.9.0"
-  }
+    "salvar": "^2.9.0"
+  },
+  "tipo": "módulo"
 }
